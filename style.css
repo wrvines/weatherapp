@@ -1,0 +1,42 @@
+body  {
+    background-color: aqua;
+    background-image: url(./images/weather-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 4rem;
+}
+
+#btn-forecast {
+    margin-top: 1rem;
+    background-color: black;
+    color: aliceblue;
+    border-radius: .5rem;
+    border: none;
+    height: 2rem;
+    width: 6rem;
+}
+
+#btn-forecast:hover {
+    scale: 1.1;
+}
+
+#zipcode {
+    box-sizing: border-box;
+    border: none;
+    border-radius: .5rem;
+    height: 2rem;
+    width: 10rem;
+    background-color: darkgray;
+    color: black;
+}
