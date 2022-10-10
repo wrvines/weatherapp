@@ -1,11 +1,14 @@
 //alert("connected");
 //https://api.openweathermap.org/data/2.5/weather?zip=84121,us&appid=12ea3c9f921a4ca10f046151c2b64c99&units=imperial
+
+//const testUrl = "https://api.openweathermap.org/data/2.5/weather?appid=12ea3c9f921a4ca10f046151c2b64c99&units=imperial&zip=84121";
+
 //set up event listener
 document.querySelector("#btn-forecast").addEventListener('click', getForecast);
 document.querySelector("#btn-forecast").addEventListener('click', onSubmit);
 const results = document.querySelector("#results")
 
-//const testUrl = "https://api.openweathermap.org/data/2.5/weather?appid=12ea3c9f921a4ca10f046151c2b64c99&units=imperial&zip=84121";
+
 
 
 
