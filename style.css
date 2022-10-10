@@ -43,3 +43,7 @@ body  {
     background-color: darkgray;
     color: black;
 }
+
+#results {
+    text-transform: capitalize;
+}
